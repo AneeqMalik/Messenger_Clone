@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.App {
+  text-align: center;
+}
+
+.messenger__logo {
+  padding-top: 15px;
+}
+.app__form {
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #e9e9eb;
+  width: 90%;
+  margin: 20px;
+}
+
+.app__formControl {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.app__iconButton {
+  flex: 0;
+}
+
+.app__input {
+  flex: 1;
+}
+.app__title {
+font-weight: bolder;
+}
